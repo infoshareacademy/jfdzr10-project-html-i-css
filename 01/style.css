@@ -1,0 +1,300 @@
+.wrapper {
+  width: 1920px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+
+.menu {
+  width: 1920px;
+  height: 178px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+
+.menu-flex li {
+  width: 162px;
+  height: 20px;
+  text-align: left;
+  font: normal normal 900 20px/66px Red Hat Display;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.header-rec {
+  width: 1920px;
+  height: 902px;
+  background: #efefef 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.logo-img {
+  width: 260px;
+  height: 71px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+.header-img {
+  width: 217px;
+  height: 217px;
+  border: 3px solid #707070;
+  opacity: 1;
+}
+
+.header-rec p {
+  width: 680px;
+  height: 70px;
+  text-align: left;
+  font: normal normal normal 17px/25px Rubik;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Sekcja 1 */
+
+.section-box-1 {
+  width: 1920px;
+  height: 1080px;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.headline {
+  width: 657px;
+  height: 22px;
+  text-align: center;
+  font: normal normal normal 25px/28px Poppins;
+  letter-spacing: 2px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+h1 {
+  text-align: left;
+  font: normal normal bold 78px/95px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+  font: normal normal bold 56px/66px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.rectangle-1 {
+  width: 508px;
+  height: 572px;
+  opacity: 1;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 57px;
+}
+
+.img-1 {
+  background-image: url(https://static.wixstatic.com/media/4f5375_52c9ec9bbc92494296c8a8358ec84f32~mv2.png/v1/crop/x_0,y_372,w_3500,h_1757/fill/w_1341,h_673,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/UJ%C4%98CIE%201%20-%20OD%20JEZIORA-ma%C5%82e.png);
+}
+
+.img-2 {
+  background-image: url(https://static.wixstatic.com/media/4f5375_b602f2d9627c4288a50c1dcad93c4420~mv2.jpg/v1/crop/x_0,y_87,w_1815,h_922/fill/w_1341,h_681,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/wizualizacja_edyt.jpg);
+}
+
+.img-3 {
+  background-image: url(https://static.wixstatic.com/media/4f5375_0a87b5d8e39040c4be18968ef6a5551e~mv2.jpg/v1/crop/x_0,y_64,w_1920,h_843/fill/w_1341,h_589,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Image6_000_wiz_1.jpg);
+}
+
+.rectangle-2 {
+  width: 509px;
+  height: 151px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 30px #00000029;
+  opacity: 0.8;
+}
+
+.background-img {
+  background-color: rgba(0, 0, 0, 0.05);
+  background-image: url(https://static.wixstatic.com/media/4f5375_52c9ec9bbc92494296c8a8358ec84f32~mv2.png/v1/crop/x_0,y_372,w_3500,h_1757/fill/w_1341,h_673,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/UJ%C4%98CIE%201%20-%20OD%20JEZIORA-ma%C5%82e.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.photo-title-sm {
+  width: 134px;
+  height: 28px;
+  text-align: left;
+  font: normal normal bold 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+}
+
+.photo-description {
+  width: 417px;
+  height: 28px;
+  text-align: left;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+}
+
+/* Sekcja 2 */
+
+.section-box-2 {
+  width: 1920px;
+  height: 902px;
+  background: #efefef 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.flex-box-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.circle {
+  width: 138px;
+  height: 133px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 67px;
+  opacity: 1;
+}
+
+.circle-des {
+  width: 249px;
+  height: 66px;
+  text-align: center;
+  font: normal normal normal 18px/28px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.flex-box-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* Sekcja 3 */
+
+.shadow-box {
+  box-sizing: border-box;
+  max-width: 1364px;
+  box-shadow: 0px 6px 30px #00000029;
+}
+
+.flex-box-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.rec-white {
+  width: 341px;
+  height: 404px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.rec-gray {
+  width: 341px;
+  height: 404px;
+  background: #efefef 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.rec-title {
+  text-align: left;
+  font: normal normal bold 27px/37px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.rec-des {
+  text-align: left;
+  font: normal normal normal 18px/25px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+/* Sekcja 4 */
+
+.rectangle-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 1920px;
+  height: 400px;
+  background: #efefef 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.header-title {
+  font: normal normal bold 56px/66px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+.side-img {
+  width: 300px;
+  height: 300px;
+  background-color: #707070;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-image: url(https://static.wixstatic.com/media/4f5375_65b669b46fc3435488291c94dcd20d99~mv2.jpg/v1/crop/x_0,y_0,w_1685,h_846/fill/w_1341,h_673,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/rys%201_JPG.jpg);
+  background-position: left top;
+}
+
+.rectangle-3 ~ p {
+  text-align: left;
+  font: normal normal normal 18px/30px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
