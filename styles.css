@@ -1,0 +1,53 @@
+body {
+  color: #707070;
+  font-family: Poppins;
+}
+
+ul {
+  list-style: none;
+}
+
+.text {
+  text-align: center;
+}
+
+.small-text {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 58px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  box-shadow: 10px 3px 31px -12px rgba(0, 0, 0, 1);
+}
+
+li {
+  height: 572px;
+  width: 508px;
+}
+
+h2 {
+  margin-bottom: 69px;
+  margin-top: 10px;
+  font-size: 56px;
+  padding: 0px 20% 0px 20%;
+}
+
+.container p {
+  padding: 10px;
+  margin-top: 0%;
+}
+
+.container h3 {
+  margin-bottom: 0%;
+  margin-left: 10px;
+}
