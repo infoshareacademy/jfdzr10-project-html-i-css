@@ -1,0 +1,40 @@
+.section-small-title{
+    text-align: center;
+    font: normal normal normal 25px/28px Poppins;
+    letter-spacing: 2px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.section-title{
+    text-align: center;
+    font: normal normal bold 56px/66px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;  
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+      
+.column {
+    display: flex;
+    width: 31%;
+    height: 572px;
+    column-gap: 30px;
+    text-align: center;
+    color: #707070;
+}
+
+.column.image{
+    background-color: #707070;
+    max-width: 508px;
+}
+
+.column.text {
+    vertical-align: text-bottom;
+}
