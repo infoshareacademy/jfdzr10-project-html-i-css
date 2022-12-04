@@ -1,1 +1,19 @@
-.
+.first {
+    font-size: 17px;
+
+}
+h2 {
+    font-size: 78px;
+
+}
+.logo{
+    border: 2px solid;
+    width: 260px;
+    height: 71px;
+    text-align: center;
+    margin-left: 278px;
+    margin-top: 54px;
+    margin-bottom: 53px;
+    /*justify-content: center;
+    align-items: ;*/
+}

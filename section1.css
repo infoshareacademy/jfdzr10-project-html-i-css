@@ -1,0 +1,25 @@
+body{
+    height: 1920px;
+    width: 1193px;
+    color: #707070;
+    
+}
+.top
+{
+    text-align: center;
+    width: 657px;
+    height: 22px;
+    letter-spacing: 2px;
+}
+
+div{
+    
+    background: #efefef;
+}
+.btn{
+    border-radius: 50%;
+    width: 14px;
+    height: 12px;
+    border:1px solid #fff;
+    opacity: 1;
+}
