@@ -58,7 +58,7 @@ h3 {
 
 .header-content h1 {
 	font-size: 7.8rem;
-	margin-bottom: 3.2rem;
+	margin-bottom: 32px;
 }
 
 .header-content p {
@@ -72,7 +72,7 @@ h3 {
 	height: 108px;
 	background-color: white;
 	border-radius: 74px;
-	padding: 2.5rem;
+	padding: 25px;
 	background-image: url("images/arrow.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -89,7 +89,7 @@ h3 {
 
 nav {
 	background-color: white;
-	padding: 5.4rem;
+	padding: 54px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
