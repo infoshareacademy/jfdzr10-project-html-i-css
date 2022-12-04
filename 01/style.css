@@ -1,1 +1,69 @@
-.
+figure {
+  display: flex;
+  width: 1920px auto;
+  height: 912px auto;
+  margin: 0 auto;
+  gap: 58px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+img {
+  flex-direction: row;
+  width: 508px;
+  height: 420px;
+  box-sizing: border-box;
+}
+
+section {
+  text-align: center;
+  border: 1px solid #efefef;
+  width: 1920px auto;
+  height: 1080px auto;
+  margin: 100px 100px;
+  padding: 100px 300px 200px 300px;
+  box-sizing: border-box;
+}
+
+.capslock-text {
+  text-transform: uppercase;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+figcaption {
+  box-sizing: border-box;
+  width: 508px;
+  height: 100px;
+  box-shadow: 0px 6px 30px #00000029;
+  font: normal normal normal 20px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  margin-top: 0px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-top: 1px;
+}
+
+h2 {
+  text-align: center;
+  font: normal normal bold 56px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+span {
+  text-align: center;
+  font: normal normal normal 25px Poppins;
+  letter-spacing: 2px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+body {
+  box-sizing: border-box;
+}
