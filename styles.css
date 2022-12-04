@@ -73,7 +73,7 @@ h3 {
 	background-color: white;
 	border-radius: 74px;
 	padding: 2.5rem;
-	background-image: url("arrow.svg");
+	background-image: url("images/arrow.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 50%;
@@ -142,21 +142,21 @@ nav {
 }
 
 .list-img.users {
-	background-image: url("users.svg");
+	background-image: url("images/users.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 50%;
 }
 
 .list-img.apps {
-	background-image: url("apps.svg");
+	background-image: url("images/apps.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 50%;
 }
 
 .list-img.design {
-	background-image: url("design.svg");
+	background-image: url("images/design.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 50%;
