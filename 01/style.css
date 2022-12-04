@@ -1,0 +1,221 @@
+body,
+div,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 178px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+#logoBox {
+  position: absolute;
+  top: 54px;
+  left: 278px;
+  width: 260px;
+  height: 71px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+#menuBox {
+  position: absolute;
+  right: 140px;
+  top: 54px;
+  min-width: 676px;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#menubox p {
+  text-align: center;
+  font: normal normal normal 20px/24px Lato;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#firstSection {
+  width: 1920px;
+  height: 902px;
+  background-color: rgb(251, 207, 40);
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?quality=90&webp=true&resize=1920,1080);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+#firstSection h1 {
+  position: absolute;
+  top: 580px;
+  left: 278px;
+  width: 522px;
+  height: 109px;
+  margin: 0;
+
+  text-align: left;
+  font: normal normal bold 78px/95px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#firstSection p {
+  position: absolute;
+  top: 721px;
+  left: 278px;
+  width: 680px;
+  height: 70px;
+
+  text-align: left;
+  font: normal normal normal 17px/25px Rubik;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#firstSection .rightBtn {
+  position: absolute;
+  top: 929px;
+  left: 1706px;
+  width: 74px;
+  height: 108px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  border-radius: 35px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #7070701a;
+  opacity: 1;
+}
+#secSection {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#secSection p {
+  width: 657px;
+  height: 22px;
+  margin: 10px 0;
+  text-align: center;
+  font: normal normal normal 25px/28px Poppins;
+  letter-spacing: 2px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#secSection h2 {
+  width: 814px;
+  height: 145px;
+  margin: 10px 0;
+  text-align: center;
+  font: normal normal bold 56px/66px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#thirdSection {
+  width: 1920px;
+  height: 919px;
+  background: #efefef 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+}
+#thirdSection .leftSide,
+#thirdSection .rightSide {
+  width: 50%;
+}
+#thirdSection .leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#thirdSection .rightSide img {
+  width: 100%;
+  height: 100%;
+}
+#thirdSection .leftSide .cardBox {
+  height: 131px;
+  width: 690px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#thirdSection .leftSide .cardBox:first {
+  margin: 60px 0 0 0;
+}
+#thirdSection .leftSide .cardNavigation {
+  width: 690px;
+}
+#thirdSection .leftSide .cardNavigation div {
+  display: flex;
+  justify-content: start;
+  width: 165px;
+}
+#thirdSection .leftSide .cardNavigation span {
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  background: #707070 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+#thirdSection .leftSide .cardNavigation span:first-child {
+  margin: 0 30px 0 0;
+}
+#thirdSection .leftSide .cardBox img {
+  width: 138px;
+  height: 133px;
+  margin-right: 45px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+#thirdSection .leftSide .cardBox h4 {
+  margin: 0 0 30px 0;
+  width: 295px;
+  height: 22px;
+  text-align: left;
+  font: normal normal bold 25px/48px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#thirdSection .leftSide .cardBox p {
+  width: 507px;
+  height: 81px;
+  text-align: left;
+  font: normal normal normal 18px/28px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#fourthSection {
+  height: 1080px;
+  width: 100%;
+}
+#fourthSection .fourthCardBox {
+  display: flex;
+  justify-content: space-around;
+}
+#fourthSection .fourthCard {
+  width: 508px;
+  height: 572px;
+  background: #efefef 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#fourthSection .fourthCard . {
+}
+#fourthSection h2 {
+}
