@@ -128,7 +128,7 @@ nav {
 	padding: 154px 140px 88px;
 }
 
-.left-side > div {
+.left-side > div:not(:last-child) {
 	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -168,4 +168,40 @@ nav {
 	background-image: url("https://images.unsplash.com/photo-1669220878589-642cbd1837af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.arrows {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+.arrow {
+	width: 65px;
+	height: 65px;
+	background-color: rgba(194, 194, 194, 0.7);
+	margin-right: 40px;
+	border-radius: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrow-left {
+	color: rgba(194, 194, 194, 0.7);
+}
+
+.arrow-left svg {
+	fill: #707070;
+	width: 30%;
+}
+
+.arrow-right svg {
+	fill: #ffffff;
+	width: 30%;
+}
+
+.active {
+	background-color: #707070;
 }
