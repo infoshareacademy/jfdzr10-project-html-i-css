@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -132,6 +137,7 @@ nav {
 }
 
 .left-side > div:not(:last-child) {
+	max-width: 690px;
 	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -213,6 +219,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	column-gap: 54px;
+	padding-bottom: 100px;
 }
 
 .post-img {
