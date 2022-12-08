@@ -1,0 +1,23 @@
+h3 {
+  text-align: center;
+  font: normal normal 900 56px/66px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+table {
+  align-content: center;
+  display: block;
+}
+
+img {
+  border-radius: 67px;
+  height: 138px;
+  width: 133px;
+}
+
+.tableOfCats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

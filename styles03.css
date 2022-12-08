@@ -1,0 +1,37 @@
+h6 {
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 25px/28px Poppins;
+  letter-spacing: 2px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+h2 {
+  /* Layout Properties
+    top: 2490px;
+    left: 553px;
+    width: 814px;
+    height: 145px; */
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 56px/66px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+
+img {
+  border: solid 4px;
+  height: 138px;
+  width: 133px;
+}
+
+.bold {
+  text-align: left;
+  font: normal normal bold 27px/37px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
