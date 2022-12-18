@@ -13,20 +13,67 @@
   font-size: 16px;
   font-family: 'Kumbh Sans';
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 /* HEADER */
+.cart-icon {
+  height: 1rem;
+}
+.navigation div:last-of-type {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
 @media (max-width: 960px) {
   .navigation{
-    box-sizing: border-box;
-    padding: 15px;
+    box-sizing: content-box;
+    padding: 20px 15px 25px 15px;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    height: 25px;
+    
   }
-  
+  .avatr-image {
+    height: 100%;
+  }
+  .menu-icon {
+    margin-right: 0.5rem;
+  }
+  .menu {
+    display: none;
+  }
 }
 @media (min-width: 960px) {
-  .avatr-image {
+  .menu-icon {
     display: none;
+  }
+  .navigation{
+    box-sizing: content-box;
+    margin: 35px 150px 0px 150px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+    border-bottom: 1px solid var(--grayish-blue);
+  }
+  .navigation div:first-of-type {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .avatr-image {
+    height: 100%;
+  }
+  .menu {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    list-style: none;
   }
   
 }
