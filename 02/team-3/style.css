@@ -7,26 +7,111 @@
   --grayish-blue: hsl(220, 14%, 75%);
   --light-grayish-blue: hsl(223, 64%, 98%);
   --white: hsl(0, 0%, 100%);
-  --black: rgba(0, 0, 0, .5);
+  --black: rgba(0, 0, 0, 0.5);
 
   /* font */
   font-size: 16px;
-  font-family: 'Kumbh Sans';
+  font-family: "Kumbh Sans";
 }
 
 /* HEADER */
 @media (max-width: 960px) {
-  .navigation{
+  .navigation {
     box-sizing: border-box;
     padding: 15px;
     display: flex;
     justify-content: space-between;
   }
-  
 }
 @media (min-width: 960px) {
   .avatr-image {
     display: none;
   }
-  
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 20px;
+}
+
+.button-number {
+  background-color: var(--light-grayish-blue);
+  border: 0;
+  border-radius: 15px;
+  margin: 8px;
+  padding: 5px 10px;
+  width: 100vh;
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .button-number::before {
+  content: "";
+  background-image: url(../sneakers/images/icon-minus.svg);
+}
+
+.button-number::after {
+  content: "";
+  background-image: url(../sneakers/images/icon-plus.svg);
+} */
+
+.button-add {
+  background-color: var(--primaty-orange);
+  border: 0;
+  border-radius: 15px;
+  margin: 8px;
+  color: white;
+  font-weight: 700;
+  font-family: "Kumbh Sans";
+  width: 100vh;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-add p {
+  padding-left: 20px;
+}
+
+/* .button-add::after {
+  background-image: url(../sneakers/images/icon-cart.svg);
+} */
+
+@media (max-width: 400px) {
+  .buttons {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 400px) {
+  .buttons {
+    flex-wrap: nowrap;
+  }
+
+  .button-number {
+    width: 150px;
+  }
+
+  .button-add:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+  }
+
+  .button-add {
+    width: 250px;
+  }
+
+  .button-number svg:hover path {
+    cursor: pointer;
+    fill: var(--primaty-pale-orange);
+  }
 }
