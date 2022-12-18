@@ -46,6 +46,38 @@ body {
   .menu {
     display: none;
   }
+
+  #slider{
+    position: relative;
+  }
+  #slider-img{
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3.7/3;
+  }
+  .button-left{
+    position: absolute;
+    background-color: rgba(255, 255, 255, .80);
+    top: 45%;
+    left: 5%;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    font-weight: 1000;
+  }
+  .button-right{
+    position: absolute;
+    background-color: rgba(255, 255, 255, .80);
+    top: 45%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    font-weight: 1000;
+  }
+
 }
 @media (min-width: 960px) {
   .navigation{
