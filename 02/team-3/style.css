@@ -13,7 +13,10 @@
   font-size: 16px;
   font-family: 'Kumbh Sans';
 }
-
+body{
+  margin: 0;
+  padding: 0;
+}
 /* HEADER */
 @media (max-width: 960px) {
   .navigation{
@@ -21,6 +24,36 @@
     padding: 15px;
     display: flex;
     justify-content: space-between;
+  }
+  #slider{
+    position: relative;
+  }
+  #slider-img{
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3.7/3;
+  }
+  .button-left{
+    position: absolute;
+    background-color: rgba(255, 255, 255, .80);
+    top: 45%;
+    left: 5%;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    font-weight: 1000;
+  }
+  .button-right{
+    position: absolute;
+    background-color: rgba(255, 255, 255, .80);
+    top: 45%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    font-weight: 1000;
   }
   
 }
