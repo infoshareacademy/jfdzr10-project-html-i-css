@@ -92,19 +92,250 @@
     font-size: 0.9375rem;
     line-height: 1.67;
   }
+body {
+  margin: 0;
+  padding: 0;
 }
-
 /* HEADER */
+.cart-icon {
+  height: 1rem;
+}
+.navigation div:last-of-type {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.navigation{
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.avatr-image {
+  height: 100%;
+}
 @media (max-width: 960px) {
-  .navigation {
-    box-sizing: border-box;
-    padding: 15px;
+  .navigation{
+    padding: 20px 15px 25px 15px;
+    height: 25px;
+  }
+  .menu-icon {
+    margin-right: 0.5rem;
+  }
+  .menu {
+    display: none;
+  }
+
+  #slider{
+    position: relative;
+  }
+  #slider-img{
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3.7/3;
+  }
+  .button-left{
+    position: absolute;
+    background-color: rgba(255, 255, 255, .80);
+    top: 45%;
+    left: 5%;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    font-weight: 1000;
+  }
+  .button-right{
+    position: absolute;
+    background-color: rgba(255, 255, 255, .80);
+    top: 45%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    font-weight: 1000;
+  }
+  #discount {
     display: flex;
+    padding: 15px;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: row;
     justify-content: space-between;
+  }
+
+  #new-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #new-price > h3 {
+    font-size: 28px;
+    font-weight: 700;
+    height: mmin-content;
+  }
+
+  #new-price > span {
+    display: flex;
+    padding: 3px;
+    height: max-content;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    border: 1px hsl(26, 100%, 55%) solid;
+    border-radius: 10%;
+    font-weight: 700;
+  }
+
+  #discount > p {
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
   }
 }
 @media (min-width: 960px) {
-  .avatr-image {
+  .navigation{
+    margin: 35px 150px 0px 150px;
+    padding-bottom: 35px;
+    height: 50px;
+    border-bottom: 1px solid var(--grayish-blue);
+  }
+  .navigation div:first-of-type {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    list-style: none;
+  }
+  .menu-icon {
     display: none;
+  }
+  #discount {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #new-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #new-price > h3 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  #new-price > span {
+    display: flex;
+    padding: 2px;
+    height: max-content;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    border: 1px hsl(26, 100%, 55%) solid;
+    border-radius: 10%;
+    font-weight: 700;
+  }
+
+  #discount > p {
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 20px;
+}
+
+.button-number {
+  background-color: var(--light-grayish-blue);
+  border: 0;
+  border-radius: 15px;
+  margin: 8px;
+  padding: 5px 10px;
+  width: 100vh;
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .button-number::before {
+  content: "";
+  background-image: url(../sneakers/images/icon-minus.svg);
+}
+
+.button-number::after {
+  content: "";
+  background-image: url(../sneakers/images/icon-plus.svg);
+} */
+
+.button-add {
+  background-color: var(--primaty-orange);
+  border: 0;
+  border-radius: 15px;
+  margin: 8px;
+  color: white;
+  font-weight: 700;
+  font-family: "Kumbh Sans";
+  width: 100vh;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-add p {
+  padding-left: 20px;
+}
+
+/* .button-add::after {
+  background-image: url(../sneakers/images/icon-cart.svg);
+} */
+
+@media (max-width: 400px) {
+  .buttons {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 400px) {
+  .buttons {
+    flex-wrap: nowrap;
+  }
+
+  .button-number {
+    width: 150px;
+  }
+
+  .button-add:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+  }
+
+  .button-add {
+    width: 250px;
+  }
+
+  .button-number svg:hover path {
+    cursor: pointer;
+    fill: var(--primaty-pale-orange);
   }
 }
