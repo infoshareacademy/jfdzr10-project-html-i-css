@@ -1,1 +1,32 @@
+.rightSide {
+  width: 400px;
+  height: 500px;
+  border: 2px solid black;
+}
 
+.paragraph {
+  background-color: white;
+}
+
+div.price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  background-color: #ffefe0;
+  height: 20px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.old-price {
+  color: #b4b7bc;
+  text-decoration: line-through;
+  margin: 0;
+}
