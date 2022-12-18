@@ -1,0 +1,38 @@
+/************ VARIABLES ************/
+:root {
+	--clr-primary-orange: hsl(26, 100%, 55%);
+	--clr-primary-pale-orange: hsl(25, 100%, 94%);
+	--clr-neutral-blue-vdark: hsl(220, 13%, 13%);
+	--clr-neutral-grayish-blue: hsl(220, 14%, 75%);
+	--clr-neutral-grayish-blue-dark: hsl(219, 9%, 45%);
+	--clr-neutral-grayish-blue-lt: hsl(223, 64%, 98%);
+	--clr-neutral-white: hsl(0, 0%, 100%);
+	--clr-neutral-black: hsl(0, 0%, 0%);
+	--clr-neutral-black-transparent: hsla(0, 0%, 0%, 0.75);
+	--fw-regular: 400;
+	--fw-bold: 700;
+}
+/************ VARIABLES ************/
+
+/************ GLOBAL STYLES ************/
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 1.6rem;
+	font-weight: var(--fw-regular);
+}
+/************ END GLOBAL STYLES ************/

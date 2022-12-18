@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<img class="header__logo" src="logo.svg" alt="brand's logo - Sneakers" />
+			<nav class="navigation">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="#" class="navigation__link">Collections</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link">Men</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link">Women</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link">About</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__aside">
+				<img class="header__cart" src="icon-cart.svg" alt="shop's cart icon" />
+				<img class="header_avatar" src="image-avatar.png" alt="User's avatar" />
+			</div>
+		</header>
+		<main>
+			<section class="product">
+				<div class="product-photos">
+					<img class="product-photos__main" src="image-product-1.jpg" />
+					<div class="product-photos__additional-photos">
+						<img
+							class="product-photos__small-photo product-photos__small-photo--displayed"
+							src="image-product-1-thumbnail.jpg" />
+						<img
+							class="product-photos__small-photo"
+							src="image-product-2-thumbnail.jpg" />
+						<img
+							class="product-photos__small-photo"
+							src="image-product-3-thumbnail.jpg" />
+						<img
+							class="product-photos__small-photo"
+							src="image-product-4-thumbnail.jpg" />
+					</div>
+				</div>
+				<div class="description">
+					<h3 class="description__caption">SNEAKER COMPANY</h3>
+					<h2 class="description__heading">Fall Limited Edition Sneakers</h2>
+					<p class="description__text">
+						These low-profile sneakers are your perfect casusal wear companion.
+						Featuring a durable rubber outer sole, they'll withstand everything
+						the weather can offer.
+					</p>
+					<div class="pricing">
+						<p class="pricing__major">$125.00</p>
+						<!-- <p class="price2">50%</p> -->
+						<p class="pricing__discount">$250.00</p>
+					</div>
+					<div class="actions">
+						<div class="actions__plusminus">
+							<button class="actions__plusminus--minus">minus</button>
+							<p class="actions__value">0</p>
+							<button class="actions__plusminus--plus">plus</button>
+						</div>
+						<div class="actions__addtocart">
+							<button>Add to cart</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
