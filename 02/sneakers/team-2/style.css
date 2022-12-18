@@ -1,13 +1,3 @@
-.rightSide {
-  width: 400px;
-  height: 500px;
-  border: 2px solid black;
-}
-
-.paragraph {
-  background-color: white;
-}
-
 div.price {
   display: flex;
   align-items: center;
