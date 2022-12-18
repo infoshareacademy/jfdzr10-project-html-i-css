@@ -128,12 +128,12 @@ body {
 }
 .description__caption {
 	color: var(--clr-primary-orange);
-	font-family: var(--fw-bold: 500);
+	font-family: var(--fw-bold);
 }
 .description__heading {
 	margin-top: 30px;
 	margin-bottom: 30px;
-	font-family: var(--fw-bold: 700);
+	font-family: var(--fw-bold);
 }
 
 .description__text {
@@ -173,12 +173,6 @@ body {
 	height: 40px;
 	gap: 10px;
 	background-color: var(--clr-neutral-grayish-blue);
-}
-.actions__plusminus--minus {
-}
-.actions__value {
-}
-.actions__plusminus--plus {
 }
 .actions__addtocart {
 	display: flex;
