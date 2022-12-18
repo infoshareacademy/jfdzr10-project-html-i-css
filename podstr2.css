@@ -1,0 +1,104 @@
+body{
+    background-color: lightcyan;
+}
+
+.main{
+    width: 1920px;
+    height: 4080px;
+}
+
+.header{
+    width: 1920px;
+    height: 178px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 260px;
+    height: 71px;
+    border: 1px solid #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 278px;
+    font: normal normal normal 20px/24px Lato;
+    color: #707070;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 156px;
+    margin-right: 139.5px;
+    font: normal normal 900 20px/66px Red Hat Display;
+    color: #707070;
+}
+
+.second-sec{
+    width: 1642px;
+    height: 400px;
+    background: transparent;
+    background-image: linear-gradient(
+    rgba(0, 200, 255, 0.5),
+    rgba(0, 255, 204, 0.5));
+    font: normal normal bold 78px/95px Poppins;
+    display: flex;
+    align-items: center;
+    padding-left: 278px;
+    color: #707070;
+}
+.third-sec{
+    height: 365px;
+    width: 1292px;
+    margin: 0 auto;
+    color: #707070;
+}
+.third-sec-h3{
+    font: normal normal bold 56px/66px Poppins;
+    width: 375px;
+}
+.third-sec-p{
+    font: normal normal normal 18px/30px Poppins;
+    height: 207px;
+    width: 483px;
+    border-left: 2px solid #707070;
+    padding-left: 48px;
+}
+.third-sec-h1{
+    font-size: 70px;
+    width: 607px;
+    height: 200px;
+}
+.message-and-h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1{
+    width: 901px;
+    height: 920px;
+}
+.fourth-sec{
+    width: 1920px;
+    height: 919px;
+    margin-top: 78px;
+    color: #707070;
+}
+.header-and-info{
+    background: #EFEFEF;
+    display: flex;
+}
+.fourth-header{
+    font: normal normal 900 56px/65px Poppins;
+    padding-left: 69px;
+}
+.fourth-span{
+    font: normal normal medium 15px/48px Poppins;
+}
+.fourth-info{
+    width: 640px;
+}
