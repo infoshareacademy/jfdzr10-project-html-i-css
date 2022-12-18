@@ -92,6 +92,7 @@
     font-size: 0.9375rem;
     line-height: 1.67;
   }
+}
 body {
   margin: 0;
   padding: 0;
@@ -105,7 +106,7 @@ body {
   gap: 1.5rem;
   align-items: center;
 }
-.navigation{
+.navigation {
   box-sizing: content-box;
   display: flex;
   justify-content: space-between;
@@ -115,7 +116,11 @@ body {
   height: 100%;
 }
 @media (max-width: 960px) {
-  .navigation{
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation {
     padding: 20px 15px 25px 15px;
     height: 25px;
   }
@@ -126,17 +131,17 @@ body {
     display: none;
   }
 
-  #slider{
+  #slider {
     position: relative;
   }
-  #slider-img{
+  #slider-img {
     max-width: 100%;
     object-fit: cover;
     aspect-ratio: 3.7/3;
   }
-  .button-left{
+  .button-left {
     position: absolute;
-    background-color: rgba(255, 255, 255, .80);
+    background-color: rgba(255, 255, 255, 0.8);
     top: 45%;
     left: 5%;
     width: 35px;
@@ -145,9 +150,9 @@ body {
     border-radius: 50%;
     font-weight: 1000;
   }
-  .button-right{
+  .button-right {
     position: absolute;
-    background-color: rgba(255, 255, 255, .80);
+    background-color: rgba(255, 255, 255, 0.8);
     top: 45%;
     right: 5%;
     width: 35px;
@@ -195,7 +200,12 @@ body {
   }
 }
 @media (min-width: 960px) {
-  .navigation{
+  #content {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .navigation {
     margin: 35px 150px 0px 150px;
     padding-bottom: 35px;
     height: 50px;
@@ -251,6 +261,7 @@ body {
   #discount > p {
     color: hsl(219, 9%, 45%);
     text-decoration: line-through;
+  }
 }
 
 /* Buttons */
