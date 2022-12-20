@@ -112,9 +112,28 @@ body {
 
 .product-photos__small-photo {
 	width: 100px;
+	height: 100%;
 }
 
-.product-photos__small-photo--displayed {
+.product-photos__container {
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: wheat;
+	position: relative;
+}
+
+.product-photos__container.active::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+}
+
+.active {
 	border: 3px solid var(--clr-primary-orange);
 }
 /************ END PRODUCT STYLES ************/
