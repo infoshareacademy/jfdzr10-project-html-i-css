@@ -128,7 +128,7 @@ body {
 	top: 0;
 	left: 0;
 	background-color: white;
-	opacity: 0.4;
+	opacity: 0.7;
 	width: 100%;
 	height: 100%;
 }
@@ -143,41 +143,59 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 500px;
-	padding: 50px;
+	justify-content: center;
+	padding: 0 30px;
 }
 .description__caption {
 	color: var(--clr-primary-orange);
+	font-size: 1.6rem;
 	font-family: var(--fw-bold);
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
 }
 .description__heading {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	font-weight: var(--fw-bold);
-	font-size: 4.2rem;
+	font-size: 4.8rem;
 }
 
 .description__text {
-	margin-top: 10px;
 	margin-bottom: 10px;
 	color: var(--clr-neutral-grayish-blue-dark);
+	line-height: 2.6rem;
 }
 
 .pricing {
 	display: flex;
 	flex-direction: column;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
+
+.pricing__wrapper {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
 .pricing__major {
-	font-size: var(--fw-bold);
-	font-weight: bold;
+	font-weight: var(--fw-bold);
+	font-size: 3.3rem;
 }
-.price-2 {
-	background-color: var(--clr-primary-orange);
-	color: var(--clr-primary-pale-orange);
+.price2 {
+	background-color: var(--clr-primary-pale-orange);
+	color: var(--clr-primary-orange);
+	font-weight: var(--fw-bold);
+	padding: 4px 10px;
+	border-radius: 15%;
 }
 .pricing__discount {
-	color: var(--clr-neutral-grayish-blue-dark);
+	color: var(--clr-neutral-grayish-blue);
 	text-decoration: line-through;
 	border-radius: 5px;
+	font-weight: var(--fw-bold);
 }
 
 .actions {
@@ -208,7 +226,12 @@ body {
 }
 
 .actions__addtocart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.6rem;
 	background-color: var(--clr-primary-orange);
+	font-size: 1.7rem;
 	color: var(--clr-neutral-white);
 	padding: 2rem;
 	border: none;
@@ -216,7 +239,11 @@ body {
 	text-align: center;
 	font-weight: var(--fw-bold);
 	cursor: pointer;
+	box-shadow: 0px 31px 60px -10px rgba(255, 125, 26, 0.2);
 }
 
+.actions__addtocart svg path {
+	fill: var(--clr-neutral-white);
+}
 /************ END DESCRIPTION STYLES ************/
 /************ END MAIN STYLES ************/
