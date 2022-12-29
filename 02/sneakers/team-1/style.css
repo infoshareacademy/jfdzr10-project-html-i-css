@@ -49,6 +49,10 @@ body {
 	padding: 40px 0;
 }
 
+.header__mobile {
+	display: none;
+}
+
 .navigation__list {
 	display: flex;
 	margin-left: 20px;
@@ -247,3 +251,118 @@ body {
 }
 /************ END DESCRIPTION STYLES ************/
 /************ END MAIN STYLES ************/
+
+/************ MOBILE STYLES ************/
+@media screen and (max-width: 375px) {
+	body {
+		width: 100%;
+	}
+
+	.header {
+		width: 100%;
+		border-bottom: none;
+		position: fixed;
+		z-index: 2;
+		background-color: #ffff;
+		padding: 15px 15px;
+	}
+
+	.header__mobile {
+		display: flex;
+		margin-right: 16px;
+	}
+
+	.header_avatar {
+		width: 26px;
+		height: 26px;
+	}
+
+	.header__cart {
+		padding: 0;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	.product-photos {
+		width: 100%;
+		height: 40%;
+		position: relative;
+	}
+
+	.product-photos__main {
+		border-radius: 0;
+	}
+
+	.arrows {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		padding: 0 14px;
+	}
+	.arrows__previous {
+		width: 50px;
+		height: 50px;
+		background-image: url(../images/icon-previous.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: var(--clr-neutral-white);
+		border-radius: 50px;
+	}
+	.arrows__next {
+		width: 50px;
+		height: 50px;
+		background-image: url(../images/icon-next.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: var(--clr-neutral-white);
+		border-radius: 50px;
+	}
+	.actions {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.actions__buttons {
+		justify-content: space-between;
+	}
+
+	.product {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.product-photos__additional-photos {
+		display: none;
+	}
+
+	.pricing {
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.pricing__wrapper {
+		margin-bottom: 0;
+	}
+
+	.description {
+		width: 100%;
+		padding: 20px 14px;
+	}
+
+	.description__caption {
+		font-size: 1.2rem;
+	}
+
+	.description__heading {
+		font-weight: var(--fw-bold);
+		font-size: 3rem;
+		margin-bottom: 15px;
+	}
+}
+/************ END MOBILE STYLES ************/
